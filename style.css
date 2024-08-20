@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(242, 19%, 5%);
+}
+
+body,
+.quote-input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    background-color: hsl(254, 91%, 21%);
+    padding: 2rem;
+    border-radius: .5rem;
+    color: hsl(242, 8%, 95%);
+    width: 700px;
+    max-width: 90%px;
+}
+
+.timer {
+    position: absolute;
+    top: 2rem;
+    color: hsl(254, 91%, 21%);
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+
+.quote-display {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    margin-left: calc(1rem+2px);
+    margin-right: calc(1rem+2px);
+}
+
+.quote-input {
+    background-color: transparent;
+    border: 2px solid hsl(255, 88%, 16%);
+    outline: none;
+    width: 100%;
+    border-radius: .5rem;
+    height: 7rem;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: auto;
+    resize: none;
+}
+
+.quote-input:focus {
+    border-color: black;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+    text-decoration: underline;
+}
