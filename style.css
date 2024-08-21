@@ -70,3 +70,21 @@ body,
     color: red;
     text-decoration: underline;
 }
+
+.wpm {
+    color: white;
+    position: absolute;
+    margin-top: 25rem;
+    justify-content: center;
+}
+
+.wpm_button {
+    width: 100px;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    background-color: hsl(254, 91%, 21%);
+    border: 1px solid black;
+    outline: none;
+    color: white;
+}
